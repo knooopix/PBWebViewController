@@ -33,14 +33,14 @@
 		18034E4C17345EA700439096 /* Safari~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Safari~iphone.png"; path = "../PBSafariActivity/Safari~iphone.png"; sourceTree = "<group>"; };
 		18510C7A1733EA6100F0206C /* PBWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PBWebViewController.h; path = ../PBWebViewController/PBWebViewController.h; sourceTree = "<group>"; };
 		18510C7B1733EA6100F0206C /* PBWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PBWebViewController.m; path = ../PBWebViewController/PBWebViewController.m; sourceTree = "<group>"; };
-		1882DF8B1733D8CC0030D3E2 /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1882DF8B1733D8CC0030D3E2 /* Novartis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Novartis.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1882DF8E1733D8CC0030D3E2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		1882DF901733D8CD0030D3E2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1882DF921733D8CD0030D3E2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		1882DF961733D8CD0030D3E2 /* Example-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Example-Info.plist"; sourceTree = "<group>"; };
 		1882DF981733D8CD0030D3E2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1882DF9A1733D8CD0030D3E2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		1882DF9C1733D8CD0030D3E2 /* Example-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Example-Prefix.pch"; sourceTree = "<group>"; };
+		1882DF9C1733D8CD0030D3E2 /* Novartis-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Novartis-Prefix.pch"; sourceTree = "<group>"; };
 		1882DF9D1733D8CD0030D3E2 /* KMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KMAppDelegate.h; sourceTree = "<group>"; };
 		1882DF9E1733D8CD0030D3E2 /* KMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KMAppDelegate.m; sourceTree = "<group>"; };
 		1882DFA61733D8CD0030D3E2 /* KMMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KMMasterViewController.h; sourceTree = "<group>"; };
@@ -76,7 +76,7 @@
 		1882DF8C1733D8CC0030D3E2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1882DF8B1733D8CC0030D3E2 /* Example.app */,
+				1882DF8B1733D8CC0030D3E2 /* Novartis.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -114,7 +114,7 @@
 				1882DF961733D8CD0030D3E2 /* Example-Info.plist */,
 				1882DF971733D8CD0030D3E2 /* InfoPlist.strings */,
 				1882DF9A1733D8CD0030D3E2 /* main.m */,
-				1882DF9C1733D8CD0030D3E2 /* Example-Prefix.pch */,
+				1882DF9C1733D8CD0030D3E2 /* Novartis-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -144,9 +144,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1882DF8A1733D8CC0030D3E2 /* Example */ = {
+		1882DF8A1733D8CC0030D3E2 /* Novartis */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1882DFBA1733D8CD0030D3E2 /* Build configuration list for PBXNativeTarget "Example" */;
+			buildConfigurationList = 1882DFBA1733D8CD0030D3E2 /* Build configuration list for PBXNativeTarget "Novartis" */;
 			buildPhases = (
 				1882DF871733D8CC0030D3E2 /* Sources */,
 				1882DF881733D8CC0030D3E2 /* Frameworks */,
@@ -156,9 +156,9 @@
 			);
 			dependencies = (
 			);
-			name = Example;
+			name = Novartis;
 			productName = Example;
-			productReference = 1882DF8B1733D8CC0030D3E2 /* Example.app */;
+			productReference = 1882DF8B1733D8CC0030D3E2 /* Novartis.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -171,7 +171,7 @@
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "Mikael Konutgan";
 			};
-			buildConfigurationList = 1882DF861733D8CC0030D3E2 /* Build configuration list for PBXProject "Example" */;
+			buildConfigurationList = 1882DF861733D8CC0030D3E2 /* Build configuration list for PBXProject "Novartis" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -183,7 +183,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1882DF8A1733D8CC0030D3E2 /* Example */,
+				1882DF8A1733D8CC0030D3E2 /* Novartis */,
 			);
 		};
 /* End PBXProject section */
@@ -257,7 +257,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -282,7 +282,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -296,9 +296,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Example/Example-Prefix.pch";
+				GCC_PREFIX_HEADER = "Example/Novartis-Prefix.pch";
 				INFOPLIST_FILE = "Example/Example-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Novartis;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -309,9 +310,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Example/Example-Prefix.pch";
+				GCC_PREFIX_HEADER = "Example/Novartis-Prefix.pch";
 				INFOPLIST_FILE = "Example/Example-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Novartis;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -319,7 +321,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1882DF861733D8CC0030D3E2 /* Build configuration list for PBXProject "Example" */ = {
+		1882DF861733D8CC0030D3E2 /* Build configuration list for PBXProject "Novartis" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1882DFB81733D8CD0030D3E2 /* Debug */,
@@ -328,7 +330,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1882DFBA1733D8CD0030D3E2 /* Build configuration list for PBXNativeTarget "Example" */ = {
+		1882DFBA1733D8CD0030D3E2 /* Build configuration list for PBXNativeTarget "Novartis" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1882DFBB1733D8CD0030D3E2 /* Debug */,
